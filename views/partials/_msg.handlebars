@@ -1,0 +1,18 @@
+{{#if success_msg}}
+<div class="conainer">
+    <div class="alert alert-success" id="success" role="alert">{{success_msg}}</div>
+</div>
+{{/if}}
+
+{{#if error_msg}}
+<div class="conainer">
+    <div class="alert alert-danger" id="error" role="alert">{{error_msg}}</div>
+</div>
+{{/if}}
+
+{{#if error}}
+<div class="alert alert-danger" id="error_msg">
+    {{error}}
+</div>
+{{else}}
+{{/if}}

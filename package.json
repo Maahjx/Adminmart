@@ -1,0 +1,30 @@
+{
+  "name": "adminmart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maria Eduarda",
+  "license": "ISC",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "express-middleware": "^3.4.2",
+    "express-session": "^1.17.1",
+    "handlebars": "^4.7.6",
+    "middleware": "^1.0.0",
+    "node": "^15.4.0",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "pg": "^8.5.1",
+    "postgres": "^1.0.2",
+    "sequelize": "^6.4.0"
+  }
+}
